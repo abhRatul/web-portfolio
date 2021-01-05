@@ -4,27 +4,31 @@ body{
 }
 h1{
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 700;
+    
 }
-.name-highlight{
+h2{
+    font-size: 40px;
+}
+section{
+    height: 500px;
+    margin-bottom: 50px;
+    
+}
+.orange-highlight{
     color: orange;
 }
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
+
 .half-width img{
     width: 100%;
+
 }
 .top-banner{
     background-repeat: no-repeat;
     background-image: url(../images/top-banner.png);
 }
-section{
-    height: 500px;
-}
+
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient( 45deg, lightsalmon,tomato);
@@ -33,3 +37,53 @@ section{
     color: white;
     font-weight: 700;
 }
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%; 
+    
+}
+.big-dream{
+    padding-top: 70px ;
+}
+.dream-area{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fullstack{
+    border-left: 7px solid;
+    border-image: linear-gradient(150deg,#833ab4,#fd1d1d,#fcb045);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,#000046,#1CB5E0);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+ 
